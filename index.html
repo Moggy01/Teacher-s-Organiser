@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Shizuru|Syne Tactile|Shadows Into Light">
+  <title>Organiser</title>
+</head>
+<body>
+  <header>My Organiser!</header>
+  <section id='section1'>
+    <div class='weekDay'>
+      <p class='weekDay1'>Monday</p> 
+      <textarea class='week' name="Monday" id="Monday" cols="auto" rows="1" value=""></textarea>
+      <button id="monButton">Submit</button><button>Del</button>
+      <p class = textAreaResult id='MonResult'></p>
+    </div>
+    <div class='weekDay'>
+      <p class='weekDay1'>Tuesday</p> 
+      <textarea class='week' name="Tuesday" id="Tuesday" cols="auto" rows="1"></textarea>
+      <button id='tuesButton'>Submit</button><button>Del</button>
+      <p class = textAreaResult id='TuesResult'></p>
+      
+    </div>
+    <div class='weekDay'>
+      <p class='weekDay1'>Wednesday</p> 
+      <textarea class='week' name="Wednesday" id="Wednesday" cols="auto" rows="1"></textarea>
+      <button id='wedButton'>Submit</button><button>Del</button>
+      <p class = textAreaResult id='wedResult'></p>
+    </div>
+    <div class='weekDay'>
+      <p class='weekDay1'>Thursday</p> 
+      <textarea class='week' name="Thursday" id="Thursday" cols="auto" rows="1"></textarea>
+      <button id='thursButton'>Submit</button><button>Del</button>
+      <p class = textAreaResult id='thursResult'></p>
+    </div>
+    <div class='weekDay'>
+      <p class='weekDay1'>Friday</p> 
+      <textarea class='week' name="Friday" id="Friday" cols="auto" rows="1"></textarea>
+      <button id='friButton'>Submit</button><button>Del</button>
+      <p class = textAreaResult id='friResult'></p>
+    </div>
+  </section>
+  <section id='main'>
+  <section id='section2'>
+    <div id= 'toDoList'> To Do List <br>
+      Task: <input id='toDo' type="text"> <br>
+      <button id='taskButton'>Submit</button><button>Del</button>
+      <div id='toDoResult'></div>
+    </div>
+    <div id='birthday'>
+        <div class='month' id='month1'>January <br>
+        <input type="text" class='monTxt' id='mon'> 
+      <div id='dateJan'></div></div>
+        <div class='month'id='month2'>February <br>
+          <input type="text" class='monTxt'>
+          <div id='dateFeb'></div></div>
+        <div class='month'id='month3'>March <br>
+          <input type="text" class='monTxt'>
+          <div id='dateMar'></div></div>
+        <div class='month'id='month4'>April <br>
+          <input type="text" class='monTxt'>
+          <div id='dateApr'></div></div>
+        <div class='month'id='month5'>May <br>
+          <input type="text" class='monTxt'>
+          <div id='dateMay'></div></div>
+        <div class='month'id='month6'>June <br>
+          <input type="text" class='monTxt'>
+          <div id='dateJun'></div></div>
+        <div class='month'id='month7'>July <br>
+          <input type="text" class='monTxt'>
+          <div id='dateJul'></div></div>
+        <div class='month'id='month8'>August <br>
+          <input type="text" class='monTxt'>
+          <div id='dateAug'></div></div>
+        <div class='month'id='month9'>September <br>
+          <input type="text" class='monTxt'>
+          <div id='dateSep'></div></div>
+        <div class='month'id='month10'>October <br>
+          <input type="text" class='monTxt'>
+          <div id='dateOct'></div></div>
+        <div class='month'id='month11'>November <br>
+          <input type="text" class='monTxt'>
+          <div id='dateNov'></div></div>
+        <div class='month'id='month12'>December <br>
+          <input type="text" class='monTxt'>
+          <div id='dateDec'></div></div>
+    </div>
+    
+  </section>
+  <section id='section3'>
+    <div id='interventions'>Interventions <br>
+      Child: <input type="text" id='child'><br>
+      Support: <input type="text" id='support'><br>
+      <button id='interButton'>Submit</button><button>Del</button>
+      <div id='interventionResults'></div>
+    </div>
+    <div id='planning'>Planning <br>
+      Subject: <input type="text" id='subject'><br>
+      Focus: <textarea name="curr" id='focus' cols="auto" rows="1"></textarea><br>
+      <button id='planButton'>Submit</button><button>Del</button>
+      <div id='planResults'></div>
+    </div>
+  </section>
+  <section id='section4'>
+    <div id='logInDetails'>Log In Details <br>
+      Program: <input type="text" id='program'><br>
+      UserName: <input type="text" id='userName'> <br>
+      Password: <input type="text" id='password'> <br>
+      <button id='logButton'>Enter</button><button>Del</button>
+      <div id='logInResults'></div>
+    </div>
+    <div id='importantDates'>Important Dates <br>
+      What: <input type="text" id='what'><br>
+      When: <input type="text" id='when'><br>
+      <button id='imDateButton'>Submit</button><button>Del</button>
+      <div id='imDateResults'></div>
+    </div>
+  </section>
+</section>
+  <script src='./app.js'></script>
+</body>
+</html>
+
+
+

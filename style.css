@@ -1,0 +1,206 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* ============= */
+/* Week Day banner */
+header {
+  font-size: 60px;
+  font-style: bold;
+  width: 100%;
+  text-align: center;
+  font-family: "Shizuru", cursive;
+  background-color: #ffcfd2;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+#section1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.weekDay {
+  display: flex;
+  display: inline-block;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  border-radius: 5px;
+  background-color: #fde4cf;
+  margin: 5px;
+  border: black;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.weekDay1 {
+  text-align: center;
+  background-color: #fde4cf;
+  margin-top: none;
+  font-family: "Shizuru";
+  color: #a3c4f3;
+}
+.week {
+  border: none;
+  display: block;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+.textAreaResult {
+  font-size: 18px;
+  font-family: monospace;
+  background-color: #fde4cf;
+  margin-left: 5px;
+}
+/*  */
+/* ===================== */
+/* ===================== */
+/* Main body */
+#main {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  width: 100%;
+}
+#toDoList {
+  flex-grow: 1;
+  font-family: "Syne Tactile";
+  min-width: 250px;
+  border-radius: 5px;
+  background-color: #cfbaf0;
+  min-height: 200px;
+  margin: 5px;
+  padding: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#interventions {
+  flex-grow: 1;
+  border-radius: 5px;
+  background-color: #fbf8cc;
+  min-width: 300px;
+  min-height: 200px;
+  margin: 5px;
+  padding: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#planning {
+  flex-grow: 1;
+  border-radius: 5px;
+  background-color: #a3c4f3;
+  min-height: 200px;
+  margin: 10px;
+  padding: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#logInDetails {
+  flex-grow: 1;
+  border-radius: 5px;
+  background-color: #f1c0e8;
+  min-height: 150px;
+  margin: 10px;
+  padding: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+#importantDates {
+  flex-grow: 1;
+  border-radius: 5px;
+  background-color: #b9fbc0;
+  min-height: 200px;
+  padding: 5px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+input {
+  width: 50%;
+  border: none;
+  border-radius: 5px;
+  margin: 2px;
+}
+button {
+  border-radius: 5px;
+  font-size: 5px;
+  cursor: pointer;
+}
+#focus {
+  border: none;
+  border-radius: 5px;
+}
+#birthday {
+  margin: 5px;
+  background-color: #8eecf5;
+  border-radius: 5px;
+  width: 250px;
+  min-height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+
+.month {
+  margin: 5px;
+  padding: 2px;
+  width: 65px;
+  min-height: 75px;
+  font-family: "Shadows Into Light";
+  font-size: 10px;
+  text-align: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+#month1 {
+  background-color: #ff0054;
+}
+#month2 {
+  background-color: #ff5400;
+}
+#month3 {
+  background-color: #ffbd00;
+}
+#month4 {
+  background-color: #ffbd00;
+}
+#month5 {
+  background-color: #ff0054;
+}
+#month6 {
+  background-color: #ff5400;
+}
+#month7 {
+  background-color: #ff5400;
+}
+#month8 {
+  background-color: #ffbd00;
+}
+#month9 {
+  background-color: #ff0054;
+}
+#month10 {
+  background-color: #ff0054;
+}
+#month11 {
+  background-color: #ff5400;
+}
+#month12 {
+  background-color: #ffbd00;
+}
+
+.monTxt {
+  height: 5%;
+  font-size: 8px;
+}
